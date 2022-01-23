@@ -47,7 +47,7 @@ function App() {
         <span>{("0" + ((time / 10) % 100)).slice(-2)}</span>
       </div>
       <div>
-        {<button onClick={onStart}>Start</button>}
+        {!timerOn && <button onClick={onStart}>Start</button>}
 
         {<button onClick={() => setTimerOn(false)}>Stop</button>}
 
