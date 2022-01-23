@@ -17,13 +17,4 @@
   color: white;
 }
 
-.timer {
-  display: flex;
-  justify-content: center;
-}
-
-.timer span {
-  padding: 2px;
-  display: block;
-  width: 30px;
-}
+ 
